@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body {
+    font-family: Source+Sans+Pro;
+    font-weight:100;
+    text-align: center;
+    font-size: 0.8em;
+}
+h1 {
+    font-family: Source+Sans+Pro;
+    font-weight:100;
+    font-size: 3em;
+}
+h2 {
+    font-family: Source+Sans+Pro;
+    font-weight:500;
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 0px;
+}
+h3 {
+    font-family: Source+Sans+Pro;
+    font-weight:100;
+    font-size: 2.3em;
+ 
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+a:hover {
+    text-decoration-line: none;
+    color: black;
+}
+
+/* comment */
+/*.carousel-indicators li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+        cursor: pointer;
+} */
+
+/* carousel */
+.carousel-indicators li {
+    cursor: pointer;
+}
+.carousel-control-next-icon {
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 1em;
+    height: 1em;
+}
+.flipped {
+    -webkit-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.my-face{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Agent Section */
+/* create default column definition in the way that Bootstrap do it. I called my classes col-..-15 */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* define the width of new classes in case of different media queries. */
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.agent-name {
+    font-size: 0.9em;
+    color: #cc2229;
+    font-family: Source+Sans+Pro;
+    font-weight:500;
+}
+.agent-mobile {
+    font-size: 2.5em;
+    color: #333;
+    font-family: Source+Sans+Pro;
+    font-weight:200;
+    text-align: center;
+    padding-left: 20px;
+}
+.agent-mobile:hover, .agent-mobile:active{
+    color: #cc2229;
+    text-decoration-line: none;
+}
+.agent-cea {
+    font-size: 0.7em;
+    font-family: Source+Sans+Pro;
+    font-weight:100;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+
+/* Gallery Header Section */
+.galleryheaderimage {
+    position: relative;
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto 20px auto;
+    color: white;
+    height: auto;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+
+
+
+/* Gallery Lightbox */
+.gallery1 {
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+.gallery2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+/* Top Section */
+.topheader {
+    max-width: 940px;
+    margin: -15px auto 20px auto;
+    z-index: 99;
+}
+.topsection {
+    max-width: 940px;
+    margin: auto;
+}
+.half1 {
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.half2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+/* Top Section Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    font-size: 1.2em;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+li a:hover {
+    text-decoration: none;
+    color: darkturquoise;
+}
+.topnav1 {
+    float: left;
+}
+.topnav2 {
+    float: right;
+}
+
+
+
+
+
+.pad20 {
+    padding: 5em;
+}
+
+.socialfooter {
+    margin: 30px auto 30px auto;
+    text-align: center;
+    width: 100%;
+}
+.socialfooter a {
+    color: #333;
+    font-size: 1.2em;
+    text-decoration-line: none;
+}
+.socialfooter a:hover {
+    color: #cc2229;
+    text-decoration-line: none;
+}
+
+
+.floorplans {
+    background-color: #646e6e;
+    color: white;
+    width: 100%;
+    padding: 3em;
+}
+
+
+
+/* Nav Bar - Floor Plans */
+.vertical-menu {}
+
+.vertical-menu a {
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu a:hover {
+    color: mediumturquoise;
+}
+.vertical-menu a.active {
+    color: white;
+}
+
+.container-form {
+    margin: 2em auto;
+    padding: 3em;
+    width: 90%;
+    background-color: gray;
+}
+.table {
+    background-color: mediumturquoise;
+}
+
+
+
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 30;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 2s ease-in-out;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+
+  /* My CTA Button */
+  .myctabutton {
+    background-color: #cc2229;
+    color: white;
+    font-size: 1em;
+    padding: 40px 10px 10px 10px;
+    border-radius: 20px;
+    border-color: #cc2229;
+    cursor: pointer;
+    position: fixed;
+    top: -25px;
+    right: 10%; 
+    z-index: 30;
+  }
+
+  .myctabutton a {
+      text-decoration-line: none;
+  }
+  .myctabutton a:hover {
+    text-decoration-line: none;
+  }
+  .container-ctaform {
+      text-align: left;
+    margin: 2em auto;
+    padding: 3em;
+    width: 90%;
+    background-color: #cc2229;
+    color: #fff;
+}
